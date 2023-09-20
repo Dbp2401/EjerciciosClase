@@ -19,8 +19,8 @@ public class Main {
         double radio, circunferencia, area;
         radio = 1.0;
 
-        circunferencia = 2*Math.PI*radio;
-        area = Math.PI * Math.pow(radio,2);
+        circunferencia = 2 * Math.PI * radio;
+        area = Math.PI * Math.pow(radio, 2);
 
 
         System.out.println("Area: " + area);
@@ -31,18 +31,32 @@ public class Main {
         //Ej 2
         //suma de primos
         Scanner sc = new Scanner(System.in);
-        int a=4, b=4, c;
+        int a = 4, b = 4, c;
         System.out.println("SEGUNDO PROGRAMA");
         System.out.println("Elige dos numeros primos para sumarse");
-        while(comprobarPrimo(a)==false) {
+        while (comprobarPrimo(a) == false) {
             System.out.print("Elige el primero: ");
             a = sc.nextInt();
         }
-        while(comprobarPrimo(b)==false) {
+        while (comprobarPrimo(b) == false) {
             System.out.print("Elige el segundo: ");
             b = sc.nextInt();
         }
-        c=a+b;
-        System.out.println("Resultado de suma: "+ c);
+        c = a + b;
+        System.out.println("Resultado de suma: " + c);
+
+
+        //Ej 3
+        //fibonacci
+        int max, penul = 0, aux;
+        System.out.println("TERCER PROGRAMA");
+        System.out.print("Elige un numero como maximo para mostrar la secuencia de Fibonacci: ");
+        max = sc.nextInt();
+        for (int ultimo = 1; ultimo < max; ) {
+            System.out.print(ultimo + " ");
+            aux = penul + ultimo;
+            penul = ultimo;
+            ultimo = aux;
+        }
     }
 }
