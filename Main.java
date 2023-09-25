@@ -101,11 +101,9 @@ public class Main {
             }
         };
         System.out.print("Numeros ingresados: ");
-        for(int j=0;j<lista.size();j++){
-            System.out.print(lista.get(j));
-            if(j<lista.size()-1) {
-                System.out.print(", ");
-            }
+        for(int j : lista) {
+            System.out.print(j + ", ");
+
         }
 
     }
