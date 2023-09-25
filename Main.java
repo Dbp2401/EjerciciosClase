@@ -58,5 +58,28 @@ public class Main {
             penul = ultimo;
             ultimo = aux;
         }
+
+        //Ej4
+        //nums en array y devolver suma
+        System.out.println("CUARTO PROGRAMA");
+        double[] nums = new double[20];
+        double res = 0.0;
+        int i=0;
+
+
+        System.out.println("Pon numeros de tipo double y cuando quieras parar pon -1: ");
+
+        while(true){
+            double introducido = sc.nextDouble();
+            if(introducido==-1) {
+                break;
+            }
+            nums[i] = introducido;
+            i++;
+            res += introducido;
+        };
+
+        System.out.println("El resultado de la suma de todos tus numeros es: " + res);
+        sc.close();
     }
 }
