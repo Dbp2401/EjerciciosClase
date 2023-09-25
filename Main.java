@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -80,6 +81,32 @@ public class Main {
         };
 
         System.out.println("El resultado de la suma de todos tus numeros es: " + res);
-        sc.close();
+
+
+        //Ej5
+        //nums en un array
+        System.out.println("QUINTO PROGRAMA");
+        ArrayList<Integer> lista = new ArrayList<>();
+
+        while(true){
+            String introducido = sc.next();
+            if(introducido.equalsIgnoreCase("x")) {
+                break;
+            }
+            try{
+                int n = Integer.parseInt(introducido);
+                lista.add(n);
+            }catch(Exception e){
+                System.out.println("Entrada no válida");
+            }
+        };
+        System.out.print("Numeros ingresados: ");
+        for(int j=0;j<lista.size();j++){
+            System.out.print(lista.get(j));
+            if(j<lista.size()-1) {
+                System.out.print(", ");
+            }
+        }
+
     }
 }
