@@ -2,7 +2,7 @@
 Este repositorio lo uso exclusivamente para los ejercicios realizados en clase de la asignatura Progrmación Avanzada del año 2023-24
 ## Ejercicios
 | Ejercicio   | Description                                                                                                                                  |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---------: | :------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1           | Area y Perimetro de un circulo con datos dados                                                                                               |
 | 2           | Pedir dos numeros al usuario, comprobar que son primos y sumarlos                                                                            |
 | 3           | Elegir un número máximo para que el codigo te de los números de la serie de Fibonacci menor que el introducido                               |
