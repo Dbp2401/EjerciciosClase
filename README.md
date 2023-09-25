@@ -1,6 +1,6 @@
 # **EjerciciosClase**
 Este repositorio lo uso exclusivamente para los ejercicios realizados en clase de la asignatura Progrmación Avanzada del año 2023-24
-##Ejercicios
+## Ejercicios
 | Ejercicio   | Description                                                                                                                                  |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1           | Area y Perimetro de un circulo con datos dados                                                                                               |
